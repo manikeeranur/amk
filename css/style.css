@@ -1,0 +1,136 @@
+:root {
+  --bg-color: black;
+  --font-color: white;
+  --box-color: rgba(17, 17, 17, 1);
+  --main-color: #ffbd39;
+  --icons-color: grey;
+}
+body {
+  scroll-behavior: auto;
+}
+/* @media screen and (max-width: 680px) {
+  #home {
+    flex-direction: column-reverse;
+  }
+} */
+
+#collapse .nav-item .nav-link {
+  color: var(--bg-color);
+}
+#collapse .nav-item .nav-link:hover {
+  color: var(--main-color);
+}
+
+.resume-page {
+  width: 45%;
+  height: 40%;
+}
+#services {
+  padding-top: 200px;
+}
+.services i {
+  font-size: 2rem;
+  color: var(--main-color);
+}
+.services {
+  width: 200px;
+  height: 200px;
+  border: 1px solid var(--bg-color);
+}
+#skills {
+  padding-top: 150px;
+}
+.skills {
+  width: 500px;
+}
+
+.progress {
+  height: 10px;
+}
+#projects {
+  padding-top: 100px;
+}
+.projectsimages1 {
+  /*   width: 30%; */
+  height: 300px;
+  background: url(../images/image_1.jpg) no-repeat;
+  background-size: cover;
+  border: 10px solid whitesmoke;
+}
+
+.projectsimages2 {
+  /*   width: 65%; */
+  height: 300px;
+  background: url(../images/image_2.jpg) no-repeat;
+  background-size: cover;
+  border: 10px solid whitesmoke;
+}
+.projectsimages3 {
+  /*   width: 65%; */
+  height: 300px;
+  background: url(../images/image_3.jpg) no-repeat;
+  background-size: cover;
+  border: 10px solid whitesmoke;
+}
+.projectsimages4 {
+  /*   width: 30%; */
+  height: 300px;
+  background: url(../images/project-3.jpg) no-repeat;
+  background-size: cover;
+  border: 10px solid whitesmoke;
+}
+.projectsimages5 {
+  /* width: 30%; */
+  height: 300px;
+  background: url(../images/project-5.jpg) no-repeat;
+  background-size: cover;
+  border: 10px solid whitesmoke;
+}
+.projectsimages6 {
+  /*   width: 65%; */
+  height: 300px;
+  background: url(../images/project-6.jpg) no-repeat;
+  background-size: cover;
+  border: 10px solid whitesmoke;
+}
+/* .con {
+  width: 250px;
+  height: 250px;
+} */
+.con i {
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  font-size: 2rem;
+}
+/* #contact {
+  padding-top: 200px;
+} */
+/* .contact {
+  width: 80%;
+  margin-left: 50px;
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid var(--bg-color);
+}
+
+.contact-btn {
+  margin-left: 50px;
+}
+
+.contact-img {
+  margin-top: 30px;
+  margin-left: 40%;
+} */
+.footer-icon {
+  color: white;
+  text-align: center;
+}
+.footer-icon i {
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  font-size: 2rem;
+  background-color: var(--box-color);
+  border-radius: 50px;
+}
